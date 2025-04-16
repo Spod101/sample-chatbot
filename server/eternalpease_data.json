@@ -1,0 +1,29 @@
+{
+"businessInfo": "EternalpEASE is a funeral planning service designed to help grieving families organize memorials with ease.",
+"services": [
+    "Funeral packages (Basic, Premium, Deluxe)",
+    "Chapel booking and scheduling",
+    "Theme recommendations with AI-generated visuals",
+    "Flower arrangements",
+    "Automated memorial reminders",
+    "AI chatbot for inquiries"
+],
+"faqs": [
+    {
+    "question": "What are the available funeral packages?",
+    "answer": "We offer Basic, Premium, and Deluxe packages tailored to different preferences and budgets."
+    },
+    {
+    "question": "How do I book a chapel schedule?",
+    "answer": "You can book a schedule through our platform or by talking to our staff directly."
+    },
+    {
+    "question": "Can I request a specific flower setup?",
+    "answer": "Yes! You may request custom flower setups according to your chosen theme."
+    },
+    {
+    "question": "Can EternalpEASE assist with documents or permits?",
+    "answer": "Yes, we can help process necessary permits related to the funeral services."
+    }
+]
+}
