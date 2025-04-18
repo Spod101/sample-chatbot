@@ -8,22 +8,96 @@
     "Automated memorial reminders",
     "AI chatbot for inquiries"
 ],
+"servicePackages": [
+    {
+    "name": "Service A",
+    "price": "Php 19,000.00",
+    "inclusions": [
+        "Casket",
+        "Embalming",
+        "Ordinary Flower",
+        "Tombstone",
+        "Interment"
+    ]
+    },
+    {
+    "name": "Service B",
+    "price": "Php 23,000.00",
+    "inclusions": [
+        "Casket",
+        "Embalming",
+        "Ordinary Flower",
+        "Tombstone",
+        "Interment"
+    ]
+    },
+    {
+    "name": "Service C",
+    "price": "Php 27,000.00",
+    "inclusions": [
+        "Casket",
+        "Embalming",
+        "Ordinary Flower",
+        "Tombstone",
+        "Interment",
+        "Tarpaulin"
+    ]
+    },
+    {
+    "name": "Service D",
+    "price": "Php 35,000 to 55,000.00",
+    "inclusions": [
+        "Casket",
+        "Embalming",
+        "3 sets of flowers",
+        "Tombstone",
+        "Interment",
+        "Tarpaulin",
+        "Picture Frame 8x10"
+    ]
+    },
+    {
+    "name": "Service E",
+    "price": "Php 60,000 to 90,000.00",
+    "inclusions": [
+        "Casket",
+        "Embalming",
+        "4 sets of flowers",
+        "Tombstone",
+        "Interment",
+        "Tarpaulin",
+        "Picture Frame 16x20"
+    ]
+    }
+],
 "faqs": [
     {
-    "question": "What are the available funeral packages?",
-    "answer": "We offer Basic, Premium, and Deluxe packages tailored to different preferences and budgets."
+    "question": "What funeral service packages does EternalpEASE offer?",
+    "answer": "EternalpEASE offers five funeral packages: Service A (Php 19,000), Service B (Php 23,000), Service C (Php 27,000), Service D (Php 35,000–55,000), and Service E (Php 60,000–90,000). Each package varies in inclusions to fit your preferences and budget."
+    },
+    {
+    "question": "What is included in Service A?",
+    "answer": "Service A includes a casket, embalming, ordinary flower arrangement, tombstone, and interment for Php 19,000."
+    },
+    {
+    "question": "What is the difference between Service B and C?",
+    "answer": "Service B and C both include the basics: casket, embalming, ordinary flowers, tombstone, and interment. However, Service C adds a tarpaulin and is priced at Php 27,000 compared to Service B’s Php 23,000."
+    },
+    {
+    "question": "What are the premium features in Service D and E?",
+    "answer": "Service D (Php 35,000–55,000) includes 3 sets of flowers, a tarpaulin, and a picture frame (8x10), while Service E (Php 60,000–90,000) includes 4 sets of flowers and a larger picture frame (16x20), along with all standard services."
     },
     {
     "question": "How do I book a chapel schedule?",
-    "answer": "You can book a schedule through our platform or by talking to our staff directly."
+    "answer": "You can book a chapel schedule through our online platform or coordinate directly with our staff for assistance."
     },
     {
-    "question": "Can I request a specific flower setup?",
-    "answer": "Yes! You may request custom flower setups according to your chosen theme."
+    "question": "Can I customize the flower arrangements or other inclusions?",
+    "answer": "Yes, we allow customization of flower setups and other features depending on your selected package and theme."
     },
     {
     "question": "Can EternalpEASE assist with documents or permits?",
-    "answer": "Yes, we can help process necessary permits related to the funeral services."
+    "answer": "Yes, we can help process all necessary permits and documents required for the funeral arrangements."
     }
-]
+    ]
 }
