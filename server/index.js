@@ -3,6 +3,9 @@ const cors = require('cors');
 require('dotenv').config();
 
 const messageRoutes = require('./routes/messages');
+const imageRoutes = require("./routes/images");
+
+app.use("/api/images", imageRoutes);
 
 const app = express();
 app.use(cors());
