@@ -1,18 +1,15 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const { generateFuneralThemeImage } = require("../services/openaiService");
-const { uploadImageFromUrl } = require("../services/supabaseService");
+const generateImage = require('../services/generateImageService');
 
-router.post("/generate-image", async (req, res) => {
+router.post('/generate-image', async (req, res) => {
   const { prompt } = req.body;
 
   try {
-    const imageUrl = await generateFuneralThemeImage(prompt);
-    const savedUrl = await uploadImageFromUrl(imageUrl, prompt);
-
-    res.json({ success: true, url: savedUrl });
+    const imageUrl = await generateImage(prompt);
+    res.json({ imageUrl });
   } catch (error) {
-    res.status(500).json({ success: false, error: error.message });
+    res.status(500).json({ error: 'Image generation failed.' });
   }
 });
 
