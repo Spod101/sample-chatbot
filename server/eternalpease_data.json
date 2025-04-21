@@ -81,11 +81,11 @@
     },
     {
     "question": "What is the difference between Service B and C?",
-    "answer": "Service B and C both include the basics: casket, embalming, ordinary flowers, tombstone, and interment. However, Service C adds a tarpaulin and is priced at Php 27,000 compared to Service B’s Php 23,000."
+    "answer": "Service B and C both include the basics: casket, embalming, ordinary flowers, tombstone, and interment. However, Service C adds a tarpaulin and is priced at Php 27,000 compared to Service B's Php 23,000."
     },
     {
     "question": "What are the premium features in Service D and E?",
-    "answer": "Service D (Php 35,000–55,000) includes 3 sets of flowers, a tarpaulin, and a picture frame (8x10), while Service E (Php 60,000–90,000) includes 4 sets of flowers and a larger picture frame (16x20), along with all standard services."
+    "answer": "Service D (Php 35,000-55,000) includes 3 sets of flowers, a tarpaulin, and a picture frame (8x10), while Service E (Php 60,000–90,000) includes 4 sets of flowers and a larger picture frame (16x20), along with all standard services."
     },
     {
     "question": "How do I book a chapel schedule?",
@@ -103,6 +103,6 @@
     "contactInfo": {
     "phone": "+63 912 345 6789",
     "email": "support@eternalpease.ph",
-    "address": "Infinity Memorial Chapels, Quezon City, Philippines"
+    "address": "Infinity Memorial Chapels, Tuguegarao City, Philippines"
     }
 }
