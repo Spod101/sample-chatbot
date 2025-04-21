@@ -32,9 +32,15 @@
 - **OpenAI API**
 - **NativeWind** (Tailwind CSS for React Native)
 
+### 💻 Backend
+- **Supabase** – Database, Auth, and Storage
+- **OpenAI API** – Used for AI-based recommendations and theme generation
+
 ---
 
-## 🛠️ Installation (Web)
+## 🛠️ Installation
+
+### Web (Frontend)
 
 ```bash
 # Clone the repo
@@ -54,7 +60,7 @@ npm run dev
 
 ---
 
-## 📱 Installation (Mobile via Expo)
+### Mobile (Frontend via Expo)
 
 ```bash
 # Navigate to mobile folder (if separated)
@@ -69,7 +75,20 @@ npx expo start
 
 ---
 
-## 📦 Key NPM Dependencies
+### Backend Setup (Supabase)
+
+```bash
+# Set up Supabase database
+# Follow the Supabase setup guide and create tables as per the schema provided in the README
+# Configure your Supabase URL and API key in .env.local
+
+# Push your schema changes
+supabase db push
+```
+
+---
+
+### Key NPM Dependencies
 
 ```bash
 # Web dependencies
@@ -90,7 +109,7 @@ npm install expo react-native @supabase/supabase-js openai nativewind react-nati
 ## 📂 Project Structure
 
 ```
-/web
+/frontend
   ├── pages/
   ├── components/
   ├── lib/
@@ -100,6 +119,12 @@ npm install expo react-native @supabase/supabase-js openai nativewind react-nati
   ├── screens/
   ├── components/
   └── assets/
+
+/backend
+  ├── supabase/
+    └── schema.sql
+  ├── migrations/
+  └── api/
 ```
 
 ---
