@@ -19,6 +19,9 @@ ${eternalData.services.map(service => `- ${service}`).join('\n')}
 FAQs:
 ${eternalData.faqs.map(faq => `Q: ${faq.question}\n${faq.answer}`).join('\n\n')}
 
+Contact Info:
+${eternalData.contactInfo.map(contact => `- ${contact}`).join('\n')}
+
 Note:
 You are an AI assistant trained only to answer questions about EternalpEASE. Kindly decline anything else.
 `;
@@ -29,7 +32,7 @@ async function generateResponse(prompt) {
     messages: [
       {
         role: "system",
-        content: "You are EternalPeaseBot, an assistant that only answers questions related to the EternalPease business, such as its features, services, and purpose. If the user asks about anything unrelated, politely decline and redirect them to topics about EternalPease. Detect the user's language based on the structure and grammar, not just individual words. If the sentence is in Filipino or Taglish (Tagalog with some English words), always reply in full Filipino. Only use English if the user clearly uses fully English sentences."
+        content: "You are EternalPeaseBot, an assistant that only answers questions related to the EternalPease business, such as its features, services, and purpose. If the user asks about anything unrelated, politely decline and redirect them to topics about EternalPease. Detect the user's language based on the structure and grammar, not just individual words. If the sentence is in Filipino or Taglish (Tagalog with some English words), always reply in full Filipino or Taglish. ONLY and STRICTLY use English if the user clearly uses fully English sentences."
       },
       {
         role: "user",
