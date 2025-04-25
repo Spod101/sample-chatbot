@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import "./app.css";
 
 function App() {
   const [input, setInput] = useState("");
@@ -7,23 +8,33 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await axios.post("http://localhost:5000/api/messages", { user_input: input });
-    setResponse(res.data.ai_response);
+    try {
+      const res = await axios.post("http://localhost:5000/api/messages", {
+        user_input: input,
+      });
+      setResponse(res.data.ai_response);
+    } catch (err) {
+      setResponse("Oops! Something went wrong.");
+    }
   };
 
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>EternalPease 💀</h1>
-      <form onSubmit={handleSubmit}>
+    <div className="app-container">
+      <h1 className="app-title">EternalPease 💀</h1>
+      <form className="chat-form" onSubmit={handleSubmit}>
         <textarea
+          className="chat-input"
           value={input}
-          onChange={e => setInput(e.target.value)}
+          onChange={(e) => setInput(e.target.value)}
           placeholder="Ask us anything about EternalPease..."
-        ></textarea>
-        <button type="submit">Ask!</button>
+          rows={5}
+        />
+        <button className="chat-button" type="submit">
+          Ask!
+        </button>
       </form>
       {response && (
-        <div style={{ marginTop: "1rem", padding: "1rem", background: "#eee" }}>
+        <div className="chat-response">
           <strong>Chatbot Response:</strong>
           <p>{response}</p>
         </div>

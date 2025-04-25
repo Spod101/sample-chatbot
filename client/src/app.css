@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .app-container {
+    min-height: 100vh;
+    background: linear-gradient(to right, #293841, #95a7b3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Title */
+  .app-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Form */
+  .chat-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Textarea */
+  .chat-input {
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    resize: none;
+    font-size: 1rem;
+    background: #f1f1f1;
+    color: #333;
+    outline: none;
+  }
+  
+  /* Button */
+  .chat-button {
+    background-color: #4cb1ec;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .chat-button:hover {
+    background-color: #4cb1ec;
+  }
+  
+  /* Response Box */
+  .chat-response {
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: #f0f0f0;
+  }
+  
